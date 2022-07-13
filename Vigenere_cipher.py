@@ -24,7 +24,7 @@ def read_text():
     with open('input_text_vigenere_cipher.txt','r') as f:
         text = f.read()
     
-    return text
+    return text.replace(' ','')
 
 #just to see 
 def tabula_recta():
